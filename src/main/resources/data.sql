@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS rates;
+
+CREATE TABLE rates (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  exchange_date Date unique NOT NULL,
+  GBP Varchar(45) DEFAULT NULL,
+  USD Varchar(45) DEFAULT NULL,
+  HKD Varchar(45) DEFAULT NULL
+);
